@@ -1,0 +1,216 @@
+*{
+  /* border: 2px solid red; */
+  margin: 0px;
+  padding: 0px;
+  
+}
+.navb{
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.top-navbar{
+    background-color: rgb(236, 105, 31);
+    font-size: large;
+}
+.top-navbar button{
+    background-color: brown;
+    border: none;
+    color: yellow;
+    padding: 5px;
+}
+.nav-img{
+    margin-left: 170px!important;
+}
+.bottom-navbar{
+    background-color: rgb(36 49 140);
+    height: 130px;
+}
+.bnavbar-top li{
+   
+    padding: 7px;
+}
+.slides-button{
+    position:fixed;
+    background-color: rgb(236, 105, 31);;
+    width: 100px;
+    height: 45px;
+    border: none;
+    top:350px;
+    right:40px;
+    transform: rotate(90deg);
+    color: aliceblue;
+}
+.banner{
+    background-color: rgb(236, 105, 31);
+}
+.notification{
+    background-color: rgb(236, 105, 31);
+    width: 20%;
+}
+.notification p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+    font-size:x-large;
+}
+.notification-right{
+    background-color: rgb(72, 72, 72);
+    height: 60px;
+}
+.notification-right marquee{
+    color: aliceblue;
+}
+.mrucet{
+    background-color: rgb(241, 126, 38);
+}
+.mrucet button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 120px;
+    padding: 8px;
+    font-size: 18px;
+    background-color: maroon;
+    color: aliceblue;
+    border: none;
+    margin-bottom: 19px;
+}
+.about-mru-button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 120px;
+    padding: 8px;
+    font-size: 18px;
+    background-color: maroon;
+    color: aliceblue;
+    border: none;
+    margin-bottom: 19px;
+
+}
+.about-h2{
+    color: rgb(255, 129, 3);
+    font-size: xxx-large;
+}
+.vision-mission{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    background-color: rgb(255, 145, 0);
+    color: aliceblue;
+    height: 400px;
+    padding: 70px;
+}
+.vision-center{
+    
+    height: 130px;
+    border-radius: 30px;
+    margin-top: 80px;
+    z-index: 1;
+    margin-right: -190px!important;
+
+}
+
+.circle{
+    height: 270px;
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+    left: -30px;
+    margin-top: 30px;
+    
+    background-image: radial-gradient(white,rgb(255, 145, 0),rgb(255, 145, 0));
+}
+.card{
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.more{
+    background-color: maroon;
+    color: aliceblue;
+    padding: 7px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.more:hover{
+    background-color: rgb(46, 119, 246);
+}
+#footer{
+    background-color: rgb(36 49 140);
+    color: aliceblue;
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+}
+.mr{
+    width: 20%;
+    /* margin-left: 30px; */
+    margin-right: 40px;
+
+}
+.f{
+    margin-left: 30px;
+}
+.fcenter{
+    width: 90%;
+    margin-left: 90px;
+
+}
+.hr{
+    color: rgb(255, 119, 0);
+    height: 2px;
+    /* border: 2px solid; */
+    background-color: rgb(255, 106, 0);
+}
+.names{
+    color: rgb(36 49 140);
+}
+.role{
+    color: rgb(255, 115, 0);
+}
+.heading{
+    color: rgb(255, 119, 0);
+}
+#why{
+    /* margin-top: 50px!important; */
+    background-color: antiquewhite;
+    padding-bottom: 80px;
+}
+#indus{
+    margin-top: 100px!important;
+}
+#stat{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media (max-width:576px){
+     .fcenter{
+        width:100%!important;
+        margin-left: 0px!important;
+        /* color: brown!important; */
+     }
+     .mr{
+        width: 100%!important;
+     }
+     #why ul{
+        margin-left: -40px;
+     }
+     #why img{
+        width: 100%;
+     }
+     .card{
+        margin-top: 10px;
+     }
+     .about-mru{
+        margin-left: -50px;
+     }
+     .about-mru img{
+        width: 50%;
+        margin-left: 50px;
+     }
+     .vision-mission{
+        padding: 30px;
+        height: auto;
+     }
+     
+}
